@@ -13,7 +13,7 @@ const cors = require('cors');
 
 var mysqlConnection = mysql.createConnection({
     host: '127.0.0.1',
-    user: 'django',
+    user: 'root',
     password: '',
     database: 'booctop',
     multipleStatements: true
